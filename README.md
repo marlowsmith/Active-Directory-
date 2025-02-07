@@ -24,8 +24,8 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 - The Setup of Active Directory 
 - Server Manager
-- Step 3
-- Step 4
+- Active Directory Users and Computers
+- Group Policy and Managing Accounts
 
 <h2>Deployment and Configuration Steps</h2>
 
@@ -53,7 +53,7 @@ I’m inside the domain controller under the Server Manager. I installed Active 
 <p>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Under Active Directory Users and Computers, I created an organizational unit. One called Employees and another called Admin.  I also created a new user to fall under one of the organizations. 
 </p>
 <br />
 
@@ -62,4 +62,4 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <p>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+I set up group policies and, more specifically, how many failed login attempts an individual would have before the account would be locked out. I went to the individual that was locked out because of the failed login attempts and unlocked the account.  
