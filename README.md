@@ -23,7 +23,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>High-Level Deployment and Configuration Steps</h2>
 
 - The Setup of Active Directory 
-- Step 2
+- Server Manager
 - Step 3
 - Step 4
 
@@ -44,7 +44,7 @@ I created one virtual machine that is running Windows Server, and it acts as our
 <p>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+I’m inside the domain controller under the Server Manager. I installed Active Directory domain services. I added roles and features. I set up the server roles and configured the computer to be the new domain controller and adding a new forest. 
 </p>
 <br />
 
